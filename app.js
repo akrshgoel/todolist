@@ -40,7 +40,7 @@ export default function App() {
           onChangeText={setVal}
         />
         <TouchableOpacity onPress={addTask} style={styles.addBtn}>
-          <Ionicons name="add-circle" size={50} color="#55BCF6" />
+          <Ionicons name="circle" size={50} color="#55BCF6" />
         </TouchableOpacity>
       </View>
 
